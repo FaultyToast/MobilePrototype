@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UpperBody
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Character
+    m_Weight: 0
+  - m_Path: Character/Human_Base_Remesh
+    m_Weight: 0
+  - m_Path: Character/Placeholder_Sword
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiLThigh
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot/SliceyBoiLDigit11
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot/SliceyBoiRLegDigit11
+    m_Weight: 0
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit11
+      1
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit11
+      1/SliceyBoiLDigit12
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit11
+      1/SliceyBoiLDigit12/SliceyBoiLDigit13
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit21
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit21/SliceyBoiLDigit22
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit21/SliceyBoiLDigit22/SliceyBoiLDigit23
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit31
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit31/SliceyBoiLDigit32
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit31/SliceyBoiLDigit32/SliceyBoiLDigit33
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit41
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit41/SliceyBoiLDigit42
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit41/SliceyBoiLDigit42/SliceyBoiLDigit43
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit51
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit51/SliceyBoiLDigit52
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiLDigit51/SliceyBoiLDigit52/SliceyBoiLDigit53
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiWeaponL
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiNeck1
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiNeck1/SliceyBoiNeck2
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiNeck1/SliceyBoiNeck2/SliceyBoiHead
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit11
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit11/SliceyBoiRArmDigit12
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit11/SliceyBoiRArmDigit12/SliceyBoiRArmDigit13
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit21
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit21/SliceyBoiRArmDigit22
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit21/SliceyBoiRArmDigit22/SliceyBoiRArmDigit23
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit31
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit31/SliceyBoiRArmDigit32
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit31/SliceyBoiRArmDigit32/SliceyBoiRArmDigit33
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42/SliceyBoiRArmDigit43
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit51
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit51/SliceyBoiRArmDigit52
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit51/SliceyBoiRArmDigit52/SliceyBoiRArmDigit53
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR
+    m_Weight: 1
+  - m_Path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR/SliceyBoiSword
+    m_Weight: 1

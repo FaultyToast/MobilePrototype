@@ -1,0 +1,2921 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dash
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.5838885, y: -0.80988675, z: -0.054510526, w: 0.013651682}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 5.3302646, y: 3.8918853, z: -0.38518757, w: 0.8200854}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.5838885, y: -0.80988675, z: -0.054510526, w: 0.013651682}
+        inSlope: {x: 5.3392053, y: 3.8791895, z: -0.38073957, w: 0.8216053}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.000086279586, y: 0.039436683, z: 0.8860695, w: 0.46187198}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.0008381903, y: 0.032655895, z: 0.76013803, w: -1.462251}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.000086279586, y: 0.039436683, z: 0.8860695, w: 0.46187198}
+        inSlope: {x: -0.00086613, y: 0.03261119, z: 0.7608533, w: -1.4610887}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.092037015, y: -0.060537703, z: -0.7759083, w: 0.6211527}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0.32512844, y: -0.9436682, z: -0.9344816, w: -1.2120008}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.092037015, y: -0.060537703, z: -0.7759083, w: 0.6211527}
+        inSlope: {x: 0.32434613, y: -0.9441152, z: -0.9351969, w: -1.2112856}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.50877994, y: -0.8590334, z: 0.047628924, w: 0.030595204}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -3.677845, y: -2.1756291, z: -0.28657168, w: 0.42298436}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.50877994, y: -0.8590334, z: 0.047628924, w: 0.030595204}
+        inSlope: {x: -3.673911, y: -2.180636, z: -0.28810278, w: 0.42199528}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.00012288615, y: -0.032459255, z: 0.7475914, w: 0.6633653}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0.00039674342, y: 0.039987266, z: -0.9058714, w: 1.0224581}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.00012288615, y: -0.032459255, z: 0.7475914, w: 0.6633653}
+        inSlope: {x: 0.00044703484, y: 0.039998442, z: -0.9056926, w: 1.0229945}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.04263757, y: 0.017082728, z: -0.7031496, w: 0.70955676}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.15021488, y: -0.27124956, z: 1.5417337, w: 1.5243888}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.04263757, y: 0.017082728, z: -0.7031496, w: 0.70955676}
+        inSlope: {x: -0.14967844, y: -0.2714172, z: 1.5406609, w: 1.5252829}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.10146587, y: 0.7218331, z: 0.21229814, w: 0.6508388}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0.6605163, y: -0.20778179, z: 0.7583946, w: -0.120162964}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.10146587, y: 0.7218331, z: 0.21229814, w: 0.6508388}
+        inSlope: {x: 0.6604716, y: -0.20778179, z: 0.758484, w: -0.11962652}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.396603, y: 0.43295163, z: -0.1286578, w: 0.799191}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 1.3678372, y: 0.03093481, z: 1.8935502, w: -0.39196014}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: 0.396603, y: 0.43295163, z: -0.1286578, w: 0.799191}
+        inSlope: {x: 1.3671219, y: 0.032812357, z: 1.8953383, w: -0.38945675}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.022594528, y: 1.1004853, z: 0.009426364}
+        inSlope: {x: -1.2371046e-16, y: 0.45494673, z: 0.29150912}
+        outSlope: {x: -1.2371046e-16, y: 0.45494673, z: 0.29150912}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.022594528, y: 1.1004853, z: 0.009426364}
+        inSlope: {x: -1.2371046e-16, y: 0.45494673, z: 0.29150912}
+        outSlope: {x: -1.2371046e-16, y: 0.45494673, z: 0.29150912}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.24658988, y: -0.0000014480589, z: -0.0000021770475}
+        inSlope: {x: 0.0000030604745, y: 0.0000013389392, z: 0.00000007436313}
+        outSlope: {x: 0.0000030604745, y: 0.0000013389392, z: 0.00000007436313}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.24658988, y: -0.0000014480589, z: -0.0000021770475}
+        inSlope: {x: 0.0000030604745, y: 0.0000013389392, z: 0.00000007436313}
+        outSlope: {x: 0.0000030604745, y: 0.0000013389392, z: 0.00000007436313}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13014674, y: -0.000000039672848, z: 0}
+        inSlope: {x: 0.0000032446699, y: 0.0000011901647, z: 0.00000059509216}
+        outSlope: {x: 0.0000032446699, y: 0.0000011901647, z: 0.00000059509216}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.13014674, y: -0.000000039672848, z: 0}
+        inSlope: {x: 0.0000032446699, y: 0.0000011901647, z: 0.00000059509216}
+        outSlope: {x: 0.0000032446699, y: 0.0000011901647, z: 0.00000059509216}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13338436, y: 0.000000012397765, z: -0.000000009918212}
+        inSlope: {x: 0.0000029612922, y: -0.0000001487728, z: 0.00000014877168}
+        outSlope: {x: 0.0000029612922, y: -0.0000001487728, z: 0.00000014877168}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.13338436, y: 0.000000012397765, z: -0.000000009918212}
+        inSlope: {x: 0.0000029612922, y: -0.0000001487728, z: 0.00000014877168}
+        outSlope: {x: 0.0000029612922, y: -0.0000001487728, z: 0.00000014877168}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.010509734, y: -0.0049380795, z: 0.000000059509272}
+        inSlope: {x: -0.0000005260188, y: -0.00000034049538, z: -0.0000002975477}
+        outSlope: {x: -0.0000005260188, y: -0.00000034049538, z: -0.0000002975477}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.010509734, y: -0.0049380795, z: 0.000000059509272}
+        inSlope: {x: -0.0000005260188, y: -0.00000034049538, z: -0.0000002975477}
+        outSlope: {x: -0.0000005260188, y: -0.00000034049538, z: -0.0000002975477}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiWeaponL
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.13014674, y: 0, z: 0}
+        inSlope: {x: 0.0000015302372, y: -0.0000005951061, z: 0.00000059509216}
+        outSlope: {x: 0.0000015302372, y: -0.0000005951061, z: 0.00000059509216}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.13014674, y: 0, z: 0}
+        inSlope: {x: 0.0000015302372, y: -0.0000005951061, z: 0.00000059509216}
+        outSlope: {x: 0.0000015302372, y: -0.0000005951061, z: 0.00000059509216}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.02724017, y: 0, z: 0}
+        inSlope: {x: 0.0000010520376, y: 0.0000005951001, z: -0}
+        outSlope: {x: 0.0000010520376, y: 0.0000005951001, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.02724017, y: 0, z: 0}
+        inSlope: {x: 0.0000010520376, y: 0.0000005951001, z: -0}
+        outSlope: {x: 0.0000010520376, y: 0.0000005951001, z: -0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.010510131, y: -0.0049381587, z: 0.00000015869139}
+        inSlope: {x: -0.0000012893667, y: -1.5463807e-17, z: -0.00000014877521}
+        outSlope: {x: -0.0000012893667, y: -1.5463807e-17, z: -0.00000014877521}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.010510131, y: -0.0049381587, z: 0.00000015869139}
+        inSlope: {x: -0.0000012893667, y: -1.5463807e-17, z: -0.00000014877521}
+        outSlope: {x: -0.0000012893667, y: -1.5463807e-17, z: -0.00000014877521}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.24658985, y: -0.0000014480589, z: 0.0000021919248}
+        inSlope: {x: 0.0000015302372, y: -0.00000014873747, z: -0.000000074369154}
+        outSlope: {x: 0.0000015302372, y: -0.00000014873747, z: -0.000000074369154}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      - serializedVersion: 3
+        time: 0.33333334
+        value: {x: -0.24658985, y: -0.0000014480589, z: 0.0000021919248}
+        inSlope: {x: 0.0000015302372, y: -0.00000014873747, z: -0.000000074369154}
+        outSlope: {x: 0.0000015302372, y: -0.00000014873747, z: -0.000000074369154}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 3
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 4110984597
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1515194217
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1872071862
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3295035209
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2647816671
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3938821267
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2509540384
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2290235954
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 850444202
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1515194217
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2982037946
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3678508371
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2290235954
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4090318912
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1517788460
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1872071862
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 4220536379
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.33333334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.022594528
+        inSlope: -1.2371046e-16
+        outSlope: -1.2371046e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.022594528
+        inSlope: -1.2371046e-16
+        outSlope: -1.2371046e-16
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1.1004853
+        inSlope: 0.45494673
+        outSlope: 0.45494673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 1.1004853
+        inSlope: 0.45494673
+        outSlope: 0.45494673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.009426364
+        inSlope: 0.29150912
+        outSlope: 0.29150912
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.009426364
+        inSlope: 0.29150912
+        outSlope: 0.29150912
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.24658988
+        inSlope: 0.0000030604745
+        outSlope: 0.0000030604745
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.24658988
+        inSlope: 0.0000030604745
+        outSlope: 0.0000030604745
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000014480589
+        inSlope: 0.0000013389392
+        outSlope: 0.0000013389392
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.0000014480589
+        inSlope: 0.0000013389392
+        outSlope: 0.0000013389392
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000021770475
+        inSlope: 0.00000007436313
+        outSlope: 0.00000007436313
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.0000021770475
+        inSlope: 0.00000007436313
+        outSlope: 0.00000007436313
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.13014674
+        inSlope: 0.0000032446699
+        outSlope: 0.0000032446699
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.13014674
+        inSlope: 0.0000032446699
+        outSlope: 0.0000032446699
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.000000039672848
+        inSlope: 0.0000011901647
+        outSlope: 0.0000011901647
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.000000039672848
+        inSlope: 0.0000011901647
+        outSlope: 0.0000011901647
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.00000059509216
+        outSlope: 0.00000059509216
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: 0.00000059509216
+        outSlope: 0.00000059509216
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.13338436
+        inSlope: 0.0000029612922
+        outSlope: 0.0000029612922
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.13338436
+        inSlope: 0.0000029612922
+        outSlope: 0.0000029612922
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.000000012397765
+        inSlope: -0.0000001487728
+        outSlope: -0.0000001487728
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.000000012397765
+        inSlope: -0.0000001487728
+        outSlope: -0.0000001487728
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.000000009918212
+        inSlope: 0.00000014877168
+        outSlope: 0.00000014877168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.000000009918212
+        inSlope: 0.00000014877168
+        outSlope: 0.00000014877168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.010509734
+        inSlope: -0.0000005260188
+        outSlope: -0.0000005260188
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.010509734
+        inSlope: -0.0000005260188
+        outSlope: -0.0000005260188
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiWeaponL
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0049380795
+        inSlope: -0.00000034049538
+        outSlope: -0.00000034049538
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.0049380795
+        inSlope: -0.00000034049538
+        outSlope: -0.00000034049538
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiWeaponL
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.000000059509272
+        inSlope: -0.0000002975477
+        outSlope: -0.0000002975477
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.000000059509272
+        inSlope: -0.0000002975477
+        outSlope: -0.0000002975477
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm/SliceyBoiLForearm/SliceyBoiLPalm/SliceyBoiWeaponL
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.13014674
+        inSlope: 0.0000015302372
+        outSlope: 0.0000015302372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.13014674
+        inSlope: 0.0000015302372
+        outSlope: 0.0000015302372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0.0000005951061
+        outSlope: -0.0000005951061
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: -0.0000005951061
+        outSlope: -0.0000005951061
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.00000059509216
+        outSlope: 0.00000059509216
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: 0.00000059509216
+        outSlope: 0.00000059509216
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.02724017
+        inSlope: 0.0000010520376
+        outSlope: 0.0000010520376
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.02724017
+        inSlope: 0.0000010520376
+        outSlope: 0.0000010520376
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0.0000005951001
+        outSlope: 0.0000005951001
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: 0.0000005951001
+        outSlope: 0.0000005951001
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0
+        inSlope: -0
+        outSlope: -0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiRArmDigit41/SliceyBoiRArmDigit42
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.010510131
+        inSlope: -0.0000012893667
+        outSlope: -0.0000012893667
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.010510131
+        inSlope: -0.0000012893667
+        outSlope: -0.0000012893667
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0049381587
+        inSlope: -1.5463807e-17
+        outSlope: -1.5463807e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.0049381587
+        inSlope: -1.5463807e-17
+        outSlope: -1.5463807e-17
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.00000015869139
+        inSlope: -0.00000014877521
+        outSlope: -0.00000014877521
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.00000015869139
+        inSlope: -0.00000014877521
+        outSlope: -0.00000014877521
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiRArmCollarbone/SliceyBoiRArmUpperarm/SliceyBoiRArmForearm/SliceyBoiRArmPalm/SliceyBoiWeaponR
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.24658985
+        inSlope: 0.0000015302372
+        outSlope: 0.0000015302372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.24658985
+        inSlope: 0.0000015302372
+        outSlope: 0.0000015302372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000014480589
+        inSlope: -0.00000014873747
+        outSlope: -0.00000014873747
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.0000014480589
+        inSlope: -0.00000014873747
+        outSlope: -0.00000014873747
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0000021919248
+        inSlope: -0.000000074369154
+        outSlope: -0.000000074369154
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.0000021919248
+        inSlope: -0.000000074369154
+        outSlope: -0.000000074369154
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5838885
+        inSlope: 0
+        outSlope: 5.3302646
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.5838885
+        inSlope: 5.3392053
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.80988675
+        inSlope: 0
+        outSlope: 3.8918853
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.80988675
+        inSlope: 3.8791895
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.054510526
+        inSlope: 0
+        outSlope: -0.38518757
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.054510526
+        inSlope: -0.38073957
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.013651682
+        inSlope: 0
+        outSlope: 0.8200854
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.013651682
+        inSlope: 0.8216053
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.000086279586
+        inSlope: 0
+        outSlope: -0.0008381903
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.000086279586
+        inSlope: -0.00086613
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.039436683
+        inSlope: 0
+        outSlope: 0.032655895
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.039436683
+        inSlope: 0.03261119
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.8860695
+        inSlope: 0
+        outSlope: 0.76013803
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.8860695
+        inSlope: 0.7608533
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.46187198
+        inSlope: 0
+        outSlope: -1.462251
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.46187198
+        inSlope: -1.4610887
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.092037015
+        inSlope: 0
+        outSlope: 0.32512844
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.092037015
+        inSlope: 0.32434613
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.060537703
+        inSlope: 0
+        outSlope: -0.9436682
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.060537703
+        inSlope: -0.9441152
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.7759083
+        inSlope: 0
+        outSlope: -0.9344816
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.7759083
+        inSlope: -0.9351969
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6211527
+        inSlope: 0
+        outSlope: -1.2120008
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.6211527
+        inSlope: -1.2112856
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.50877994
+        inSlope: 0
+        outSlope: -3.677845
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.50877994
+        inSlope: -3.673911
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.8590334
+        inSlope: 0
+        outSlope: -2.1756291
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.8590334
+        inSlope: -2.180636
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.047628924
+        inSlope: 0
+        outSlope: -0.28657168
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.047628924
+        inSlope: -0.28810278
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.030595204
+        inSlope: 0
+        outSlope: 0.42298436
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.030595204
+        inSlope: 0.42199528
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.00012288615
+        inSlope: 0
+        outSlope: 0.00039674342
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.00012288615
+        inSlope: 0.00044703484
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.032459255
+        inSlope: 0
+        outSlope: 0.039987266
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.032459255
+        inSlope: 0.039998442
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.7475914
+        inSlope: 0
+        outSlope: -0.9058714
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.7475914
+        inSlope: -0.9056926
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6633653
+        inSlope: 0
+        outSlope: 1.0224581
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.6633653
+        inSlope: 1.0229945
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.04263757
+        inSlope: 0
+        outSlope: -0.15021488
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.04263757
+        inSlope: -0.14967844
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.017082728
+        inSlope: 0
+        outSlope: -0.27124956
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.017082728
+        inSlope: -0.2714172
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.7031496
+        inSlope: 0
+        outSlope: 1.5417337
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.7031496
+        inSlope: 1.5406609
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.70955676
+        inSlope: 0
+        outSlope: 1.5243888
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.70955676
+        inSlope: 1.5252829
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.10146587
+        inSlope: 0
+        outSlope: 0.6605163
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.10146587
+        inSlope: 0.6604716
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.7218331
+        inSlope: 0
+        outSlope: -0.20778179
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.7218331
+        inSlope: -0.20778179
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.21229814
+        inSlope: 0
+        outSlope: 0.7583946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.21229814
+        inSlope: 0.758484
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6508388
+        inSlope: 0
+        outSlope: -0.120162964
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.6508388
+        inSlope: -0.11962652
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.396603
+        inSlope: 0
+        outSlope: 1.3678372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.396603
+        inSlope: 1.3671219
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.43295163
+        inSlope: 0
+        outSlope: 0.03093481
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.43295163
+        inSlope: 0.032812357
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.1286578
+        inSlope: 0
+        outSlope: 1.8935502
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -0.1286578
+        inSlope: 1.8953383
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.799191
+        inSlope: 0
+        outSlope: -0.39196014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 0.799191
+        inSlope: -0.38945675
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4.149123
+        inSlope: 52.290672
+        outSlope: 52.290672
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -4.149123
+        inSlope: 52.290672
+        outSlope: 52.290672
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -175.06679
+        inSlope: 129.94893
+        outSlope: 129.94893
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -175.06679
+        inSlope: 129.94893
+        outSlope: 129.94893
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -71.75829
+        inSlope: -762.18414
+        outSlope: -762.18414
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -71.75829
+        inSlope: -762.18414
+        outSlope: -762.18414
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4.002935
+        inSlope: -6.846751
+        outSlope: -6.846751
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -4.002935
+        inSlope: -6.846751
+        outSlope: -6.846751
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.1016078
+        inSlope: -4.969893
+        outSlope: -4.969893
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 2.1016078
+        inSlope: -4.969893
+        outSlope: -4.969893
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 124.86414
+        inSlope: 189.57375
+        outSlope: 189.57375
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 124.86414
+        inSlope: 189.57375
+        outSlope: 189.57375
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -12.021661
+        inSlope: -55.90311
+        outSlope: -55.90311
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -12.021661
+        inSlope: -55.90311
+        outSlope: -55.90311
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 3.964274
+        inSlope: -79.13673
+        outSlope: -79.13673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 3.964274
+        inSlope: -79.13673
+        outSlope: -79.13673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -103.0596
+        inSlope: -170.55162
+        outSlope: -170.55162
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -103.0596
+        inSlope: -170.55162
+        outSlope: -170.55162
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiLThigh/SliceyBoiLCalf/SliceyBoiLFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -10.044428
+        inSlope: -9.990264
+        outSlope: -9.990264
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -10.044428
+        inSlope: -9.990264
+        outSlope: -9.990264
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 93.649475
+        inSlope: -19.29886
+        outSlope: -19.29886
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 93.649475
+        inSlope: -19.29886
+        outSlope: -19.29886
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 25.430006
+        inSlope: 120.250946
+        outSlope: 120.250946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 25.430006
+        inSlope: 120.250946
+        outSlope: 120.250946
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 48.18729
+        inSlope: 20.983526
+        outSlope: 20.983526
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 48.18729
+        inSlope: 20.983526
+        outSlope: 20.983526
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 62.240887
+        inSlope: 204.31429
+        outSlope: 204.31429
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 62.240887
+        inSlope: 204.31429
+        outSlope: 204.31429
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 11.926316
+        inSlope: 387.10562
+        outSlope: 387.10562
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 11.926316
+        inSlope: 387.10562
+        outSlope: 387.10562
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiSpine1/SliceyBoiSpine2/SliceyBoiSpine3/SliceyBoiSpine4/SliceyBoiRibcage/SliceyBoiLCollarbone/SliceyBoiLUpperarm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 6.4860973
+        inSlope: -4.697853
+        outSlope: -4.697853
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 6.4860973
+        inSlope: -4.697853
+        outSlope: -4.697853
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -179.7636
+        inSlope: 86.87981
+        outSlope: 86.87981
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -179.7636
+        inSlope: 86.87981
+        outSlope: 86.87981
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -61.260586
+        inSlope: 496.81747
+        outSlope: 496.81747
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -61.260586
+        inSlope: 496.81747
+        outSlope: 496.81747
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 2.7724485
+        inSlope: -6.806282
+        outSlope: -6.806282
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 2.7724485
+        inSlope: -6.806282
+        outSlope: -6.806282
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -2.4816315
+        inSlope: -0.70421875
+        outSlope: -0.70421875
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -2.4816315
+        inSlope: -0.70421875
+        outSlope: -0.70421875
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 96.772285
+        inSlope: -156.97046
+        outSlope: -156.97046
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 96.772285
+        inSlope: -156.97046
+        outSlope: -156.97046
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -2.0908506
+        inSlope: -44.690994
+        outSlope: -44.690994
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -2.0908506
+        inSlope: -44.690994
+        outSlope: -44.690994
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 4.833451
+        inSlope: -14.492371
+        outSlope: -14.492371
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: 4.833451
+        inSlope: -14.492371
+        outSlope: -14.492371
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -89.568535
+        inSlope: 247.81976
+        outSlope: 247.81976
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.33333334
+        value: -89.568535
+        inSlope: 247.81976
+        outSlope: 247.81976
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: SliceyBoiPelvis/SliceyBoiRLegThigh/SliceyBoiRLegCalf/SliceyBoiRLegFoot
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events: []

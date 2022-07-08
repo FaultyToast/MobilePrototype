@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "New Combo Attack", menuName = "Combat/ComboAttack", order = 1)]
+public class ComboAttack : ScriptableObject
+{
+    public string clipName;
+    public int minAttackFrames;
+    public int maxComboFrames;
+<<<<<<< HEAD
+    public AnimationCurve forwardSpeedAnimationCurve;
+    public AnimationCurve upSpeedAnimationCurve;
+=======
+
+    public bool allowTracking = true;
+>>>>>>> fff8da3de8982697c6306dfcde4f53b19ce781a4
+}

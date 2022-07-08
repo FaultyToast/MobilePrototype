@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeftArm
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Character
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Left
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Left/Arm_Pad_BOTTOM
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Left/Arm_Pad_TOP
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Right
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Right/Arm_Pad_BOTTOM
+    m_Weight: 1
+  - m_Path: Character/Arm_Pads_Right/Arm_Pad_TOP
+    m_Weight: 1
+  - m_Path: Character/Back_Cloth
+    m_Weight: 1
+  - m_Path: Character/Back_Cloth/Back_Cloth_L
+    m_Weight: 1
+  - m_Path: Character/Back_Cloth/Back_Cloth_R
+    m_Weight: 1
+  - m_Path: Character/Cloth_Front
+    m_Weight: 1
+  - m_Path: Character/Cloth_Front/Cloth_Front_L
+    m_Weight: 1
+  - m_Path: Character/Cloth_Front/Cloth_Front_R
+    m_Weight: 1
+  - m_Path: Character/Hand_Detail
+    m_Weight: 1
+  - m_Path: Character/Hand_Detail/Hand_Detail_SMALL
+    m_Weight: 1
+  - m_Path: Character/Hand_Detail/Hand_Detal_LARGE
+    m_Weight: 1
+  - m_Path: Character/Head_Parts
+    m_Weight: 1
+  - m_Path: Character/Head_Parts/Body
+    m_Weight: 1
+  - m_Path: Character/Head_Parts/Hood
+    m_Weight: 1
+  - m_Path: Character/Leg_Armor
+    m_Weight: 1
+  - m_Path: Character/Leg_Armor/Heel_Armor
+    m_Weight: 1
+  - m_Path: Character/Leg_Armor/Legs_Armor_BOTTOM
+    m_Weight: 1
+  - m_Path: Character/Leg_Armor/Legs_Armor_TOP
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Left
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Left/Shoulder_Pad_L_LARGE
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Left/Shoulder_Pad_L_SMALL
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Right
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Right/Shoulder_Pad_R_LARGE
+    m_Weight: 1
+  - m_Path: Character/Shoulder_Pad_Right/Shoulder_Pad_R_SMALL
+    m_Weight: 1
+  - m_Path: Character/Skirt_Front_Back
+    m_Weight: 1
+  - m_Path: Character/Skirt_Front_Back/Skirt_Back
+    m_Weight: 1
+  - m_Path: Character/Skirt_Front_Back/Skirt_Front
+    m_Weight: 1
+  - m_Path: Character/Skirt_Left
+    m_Weight: 1
+  - m_Path: Character/Skirt_Left/Skirt_L_BOTTOM
+    m_Weight: 1
+  - m_Path: Character/Skirt_Left/Skirt_L_TOP
+    m_Weight: 1
+  - m_Path: Character/Skirt_Right
+    m_Weight: 1
+  - m_Path: Character/Skirt_Right/Skirt_R_BOTTOM
+    m_Weight: 1
+  - m_Path: Character/Skirt_Right/Skirt_R_TOP
+    m_Weight: 1
+  - m_Path: Character/Torso_Parts
+    m_Weight: 1
+  - m_Path: Character/Torso_Parts/Back_Detail
+    m_Weight: 1
+  - m_Path: Character/Torso_Parts/Chest
+    m_Weight: 1
+  - m_Path: Character/Torso_Parts/Chest_Detail
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerDoubleHandWeapon
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerHipPlateL1
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerHipPlateL2
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerHipPlateR1
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerHipPlateR2
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerLThigh
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerLThigh/FracturedPlayerLCalf
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerLThigh/FracturedPlayerLCalf/FracturedPlayerLFoot
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerLThigh/FracturedPlayerLCalf/FracturedPlayerLFoot/FracturedPlayerLDigit11
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerRLegThigh
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerRLegThigh/FracturedPlayerRLegCalf
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerRLegThigh/FracturedPlayerRLegCalf/FracturedPlayerRLegFoot
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerRLegThigh/FracturedPlayerRLegCalf/FracturedPlayerRLegFoot/FracturedPlayerRLegDigit11
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit11
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit11/FracturedPlayerLDigit12
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit11/FracturedPlayerLDigit12/FracturedPlayerLDigit13
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit21
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit21/FracturedPlayerLDigit22
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit21/FracturedPlayerLDigit22/FracturedPlayerLDigit23
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit31
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit31/FracturedPlayerLDigit32
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit31/FracturedPlayerLDigit32/FracturedPlayerLDigit33
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit41
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit41/FracturedPlayerLDigit42
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit41/FracturedPlayerLDigit42/FracturedPlayerLDigit43
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit51
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit51/FracturedPlayerLDigit52
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerLDigit51/FracturedPlayerLDigit52/FracturedPlayerLDigit53
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerWeaponHoldL
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerLForearm/FracturedPlayerLPalm/FracturedPlayerWeaponHoldL/FracturedPlayerWeaponL
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerShoulderPadL1
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerLCollarbone/FracturedPlayerLUpperarm/FracturedPlayerShoulderPadL2
+    m_Weight: 1
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerNeck1
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerNeck1/FracturedPlayerNeck2
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerNeck1/FracturedPlayerNeck2/FracturedPlayerHead
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit11
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit11/FracturedPlayerRArmDigit12
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit11/FracturedPlayerRArmDigit12/FracturedPlayerRArmDigit13
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit21
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit21/FracturedPlayerRArmDigit22
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit21/FracturedPlayerRArmDigit22/FracturedPlayerRArmDigit23
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit31
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit31/FracturedPlayerRArmDigit32
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit31/FracturedPlayerRArmDigit32/FracturedPlayerRArmDigit33
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit41
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit41/FracturedPlayerRArmDigit42
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit41/FracturedPlayerRArmDigit42/FracturedPlayerRArmDigit43
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit51
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit51/FracturedPlayerRArmDigit52
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerRArmDigit51/FracturedPlayerRArmDigit52/FracturedPlayerRArmDigit53
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerWeaponHoldR
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerRArmForearm/FracturedPlayerRArmPalm/FracturedPlayerWeaponHoldR/FracturedPlayerWeaponR
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerShoulderPadR1
+    m_Weight: 0
+  - m_Path: FracturedPlayerPelvis/FracturedPlayerSpine1/FracturedPlayerSpine2/FracturedPlayerSpine3/FracturedPlayerSpine4/FracturedPlayerRibcage/FracturedPlayerRArmCollarbone/FracturedPlayerRArmUpperarm/FracturedPlayerShoulderPadR2
+    m_Weight: 0
+  - m_Path: Sword_Group2
+    m_Weight: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f26dfedb7b9ed5e41a019e5fc0ee8a06
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerObject: {instanceID: 0}
+  - mainCamera: {instanceID: 0}
+  - cineMachineCamera: {instanceID: 0}
+  - gameVariables: {fileID: 11400000, guid: 57860fb84c1007d4c9440b3c943df829, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

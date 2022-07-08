@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ForgeTorso
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis
+    m_Weight: 0
+  - m_Path: ForgeMasterPelvis/ForgeMasterLThigh
+    m_Weight: 0
+  - m_Path: ForgeMasterPelvis/ForgeMasterLThigh/ForgeMasterLCalf
+    m_Weight: 0
+  - m_Path: ForgeMasterPelvis/ForgeMasterRLegThigh
+    m_Weight: 0
+  - m_Path: ForgeMasterPelvis/ForgeMasterRLegThigh/ForgeMasterRLegCalf
+    m_Weight: 0
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL1_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL1_1/ForgeMasterClawBaseL1_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL2_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL2_1/ForgeMasterClawBaseL2_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL3_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleL/ForgeMasterArmBoneL1/ForgeMasterArmBoneL2/ForgeMasterArmBoneL3/ForgeMasterArmBoneL4/ForgeMasterArmBoneL5/ForgeMasterArmBoneL6/ForgeMasterArmBoneL7/ForgeMasterArmBoneL8/ForgeMasterArmBoneL9/ForgeMasterArmBoneL10/ForgeMasterArmBoneL11/ForgeMasterArmBoneL12/ForgeMasterArmBoneL13/ForgeMasterArmBoneL14/ForgeMasterHandL/ForgeMasterClawBaseL3_1/ForgeMasterClawBaseL3_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR1_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR1_1/ForgeMasterClawBaseR1_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR2_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR2_1/ForgeMasterClawBaseR2_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR3_1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterClavicleR/ForgeMasterArmBoneR1/ForgeMasterArmBoneR2/ForgeMasterArmBoneR3/ForgeMasterArmBoneR4/ForgeMasterArmBoneR5/ForgeMasterArmBoneR6/ForgeMasterArmBoneR7/ForgeMasterArmBoneR8/ForgeMasterArmBoneR9/ForgeMasterArmBoneR10/ForgeMasterArmBoneR11/ForgeMasterArmBoneR12/ForgeMasterArmBoneR13/ForgeMasterArmBoneR14/ForgeMasterHandR/ForgeMasterClawBaseR3_1/ForgeMasterClawBaseR3_2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone001
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone002
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone003
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone004
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone005
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone006
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone007
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone008
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone009
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone010
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone011
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone012
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone013
+    m_Weight: 1
+  - m_Path: ForgeMasterPelvis/ForgeMasterSpine1/ForgeMasterSpine2/ForgeMasterSpine3/ForgeMasterSpine4/ForgeMasterRibcage/ForgeMasterNeck1/ForgeMasterNeck2/ForgeMasterNeck3/ForgeMasterHead/ForgeMasterHeadBone014
+    m_Weight: 1
+  - m_Path: The_Forge_Master
+    m_Weight: 1
