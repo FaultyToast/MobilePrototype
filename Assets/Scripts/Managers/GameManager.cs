@@ -23,7 +23,7 @@ public class GameManager : NetworkBehaviour
 
     // Component References
     public Camera mainCamera;
-    public CinemachineFreeLook cineMachineCamera;
+    //public CinemachineFreeLook cineMachineCamera;
     private ScreenShaker screenShaker;
     private bool gameExiting = false;
 
@@ -55,7 +55,7 @@ public class GameManager : NetworkBehaviour
 
     // Experience
 
-    [SyncVar(hook = nameof(UpdateExperience))]
+    //[SyncVar(hook = nameof(UpdateExperience))]
     [System.NonSerialized] public float playerExperience = 0;
 
     [System.NonSerialized]
@@ -75,7 +75,7 @@ public class GameManager : NetworkBehaviour
         set
         {
             _skillPointsSpent = value;
-            UpdateSkillPointCounter();
+            //UpdateSkillPointCounter();
         }
     }
     public int totalSkillPoints
@@ -142,7 +142,7 @@ public class GameManager : NetworkBehaviour
     private void Start()
     {
         globalLevel = globalLevel;
-        screenShaker = cineMachineCamera.GetComponent<ScreenShaker>();
+        //screenShaker = cineMachineCamera.GetComponent<ScreenShaker>();
     }
 
     private void OnDestroy()
@@ -166,8 +166,8 @@ public class GameManager : NetworkBehaviour
             StartCoroutine(DelayedInitialize());
         }
 
-        UpdateExperience(0, 0);
-        SetGlobalLevel(0, 0);
+        //UpdateExperience(0, 0);
+        //SetGlobalLevel(0, 0);
     }
 
     private bool gameInitialized = false;
@@ -245,39 +245,39 @@ public class GameManager : NetworkBehaviour
         destroyingAllEnemies = false;
     }
 
-    public float EXPForLevel(int level)
-    {
-        return level * expPerLevel;
-    }
+    //public float EXPForLevel(int level)
+    //{
+    //    return level * expPerLevel;
+    //}
+    //
+    //[Server]
+    //public void GainExperience(float experience)
+    //{
+    //    float addedExperience = experience / (1 + gameVariables.baseExpScalar * Mathf.Pow(totalSkillPoints, gameVariables.expScalingExponent));
+    //    playerExperience += addedExperience;
+    //}
+    //
+    //public void UpdateExperience(float oldExperience, float newExperience)
+    //{
+    //    if (Mathf.FloorToInt(newExperience / expPerLevel) > Mathf.FloorToInt(oldExperience / expPerLevel))
+    //    {
+    //        UIManager.instance.tutorialManager.levelUpEvent.Invoke();
+    //    }
+    //    float percentToNextLevel = (playerExperience % expPerLevel) / expPerLevel;
+    //    UIManager.instance.expBar.SetPercent(percentToNextLevel, percentToNextLevel, null);
+    //    UpdateSkillPointCounter();
+    //}
 
-    [Server]
-    public void GainExperience(float experience)
-    {
-        float addedExperience = experience / (1 + gameVariables.baseExpScalar * Mathf.Pow(totalSkillPoints, gameVariables.expScalingExponent));
-        playerExperience += addedExperience;
-    }
-
-    public void UpdateExperience(float oldExperience, float newExperience)
-    {
-        if (Mathf.FloorToInt(newExperience / expPerLevel) > Mathf.FloorToInt(oldExperience / expPerLevel))
-        {
-            UIManager.instance.tutorialManager.levelUpEvent.Invoke();
-        }
-        float percentToNextLevel = (playerExperience % expPerLevel) / expPerLevel;
-        UIManager.instance.expBar.SetPercent(percentToNextLevel, percentToNextLevel, null);
-        UpdateSkillPointCounter();
-    }
-
-    public void UpdateSkillPointCounter()
-    {
-        UIManager.instance.skillPointCounter.text = (totalSkillPoints - skillPointsSpent).ToString();
-    }
-
-    [ClientRpc]
-    public void RpcRoomEntered()
-    {
-        UIManager.instance.tutorialManager.roomEnteredEvent.Invoke();
-    }
+    //public void UpdateSkillPointCounter()
+    //{
+    //    UIManager.instance.skillPointCounter.text = (totalSkillPoints - skillPointsSpent).ToString();
+    //}
+    //
+    //[ClientRpc]
+    //public void RpcRoomEntered()
+    //{
+    //    UIManager.instance.tutorialManager.roomEnteredEvent.Invoke();
+    //}
 
     [HideInInspector] public List<Interactable> currentInteractables = new List<Interactable>();
     public void InteractablesChanged()
@@ -484,11 +484,11 @@ public class GameManager : NetworkBehaviour
     }
 
 
-    [ClientRpc]
-    public void RpcSetGlobalLevel(int globalLevel)
-    {
-        UIManager.instance.objectiveTracker.globalLevelTracker.text = globalLevel.ToString();
-    }
+    //[ClientRpc]
+    //public void RpcSetGlobalLevel(int globalLevel)
+    //{
+    //    UIManager.instance.objectiveTracker.globalLevelTracker.text = globalLevel.ToString();
+    //}
 
     [ClientRpc]
     public void RpcSetSubObjective(string objective)

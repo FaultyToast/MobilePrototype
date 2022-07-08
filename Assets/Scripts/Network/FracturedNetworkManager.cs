@@ -151,6 +151,7 @@ public class FracturedNetworkManager : NetworkManager
         if (!IsInLobby())
         {
             Transform startPos = GetStartPosition();
+
             player = startPos != null
                 ? Instantiate(playerPrefab, startPos.position, startPos.rotation)
                 : Instantiate(playerPrefab);

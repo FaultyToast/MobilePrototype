@@ -480,18 +480,18 @@ public class CharacterMaster : NetworkBehaviour
             if (NetworkServer.active)
             {
                 characterHealth.PostDeath();
-                if (expOnDeath > 0 && giveExperience)
-                {
-                    GameManager.instance.GainExperience(expOnDeath);
-                }
-                if (giveExperience && weaponDropChance > 0)
-                {
-                    if (Random.value < weaponDropChance)
-                    {
-                        GameObject weaponDrop = Instantiate(GameVariables.instance.weaponPickUpPrefab, bodyCenter.position, Quaternion.identity);
-                        NetworkServer.Spawn(weaponDrop);
-                    }
-                }
+                //if (expOnDeath > 0 && giveExperience)
+                //{
+                //    GameManager.instance.GainExperience(expOnDeath);
+                //}
+                //if (giveExperience && weaponDropChance > 0)
+                //{
+                //    if (Random.value < weaponDropChance)
+                //    {
+                //        GameObject weaponDrop = Instantiate(GameVariables.instance.weaponPickUpPrefab, bodyCenter.position, Quaternion.identity);
+                //        NetworkServer.Spawn(weaponDrop);
+                //    }
+                //}
             }
         }
     }

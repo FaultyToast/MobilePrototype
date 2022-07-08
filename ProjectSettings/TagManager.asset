@@ -3,24 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Hurtbox
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - IKStairs
+  - Stairs
+  - Player
+  - Character
+  - NonWalkable
+  - Hurtbox
+  - NPCOnly
+  - CharacterNoCollideOtherCharacters
+  - Cloth
+  - NoCollideCharacters
   - 
   - 
   - 

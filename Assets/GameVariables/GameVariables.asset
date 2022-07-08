@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc42c5c6ca01a94c9f37531cffee2d6, type: 3}
+  m_Name: GameVariables
+  m_EditorClassIdentifier: 
+  edenBoundDamageMultiplier: 1.5
+  edenBoundStackingDamageMultiplier: 0.5
+  hitStopRecoveryTime: 0.08
+  hitStopTime: 0.08
+  hitStopMinMultiplier: 0.05
+  hitStopBaseForceScaling: 10
+  hitStopAdditionalForceMultiplier: 0.5
+  damageCap: 1e+9
+  maxFractureLevel: 5
+  roomsToBossRoom: 5
+  survivalRoomTime: 30
+  damageModifierPerLevel: 0.1
+  criticalModifierPerLevel: 0.1
+  speedModifierPerLevel: 0.1
+  maxWeaponSpeed: 1.2
+  apModifierPerLevel: 0.1
+  globalLevelPerWeaponLevel: 2
+  weaponPickUpPrefab: {fileID: 3953795525338847396, guid: f6888466a3735184885880fe867525b0, type: 3}
+  baseAPOnHit: 30
+  baseEnemyDamageScalar: 0.05
+  enemyDamageScalingExponent: 1.5
+  baseEnemyHealthScalar: 0.05
+  enemyHealthScalingExponent: 1.15
+  baseExpScalar: 0.1
+  expScalingExponent: 1.25
+  baseHealthScalar: 1.5
+  aerialAttackCooldownState: {fileID: 11400000, guid: f91aaecc3093eff479074cb0ede030c2, type: 2}
+  launchState: {fileID: 11400000, guid: e8e38fcf64e581e4b8007f2f25291c63, type: 2}
+  slamState: {fileID: 11400000, guid: 479563bcd5a82504d9f9ef782ee89984, type: 2}

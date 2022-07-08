@@ -214,7 +214,7 @@ public class CharacterMovement : NetworkBehaviour, ICharacterController
 
     private void Awake()
     {
-        walkableLayers = LayerMask.GetMask("Default", "Stairs", "Ground", "Pillar", "Terrain", "IKStairs");
+        walkableLayers = LayerMask.GetMask("Default", "Stairs", "Ground");
         float maxStepHeight = 0.8f;
         float maxSlopeAngle = 40f;
 

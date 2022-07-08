@@ -1,0 +1,1280 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0369914406377e843851324fabecf631, type: 3}
+  m_Name: AudioManagerData
+  m_EditorClassIdentifier: 
+  masterVolume: 0
+  musicVolume: 100
+  soundFXVolume: 0
+  voiceVolume: 100
+  mixerGroup: {fileID: 0}
+  sounds:
+  - soundName: Step1
+    audioClips:
+    - clip: {fileID: 8300000, guid: e37aa57929455314484567008092af47, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Step2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5a40bb58738051b4792a85d462f83e7f, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Step3
+    audioClips:
+    - clip: {fileID: 8300000, guid: f848f49367c0646499bd689ad8249b0d, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Step4
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6daa4e4aad39fcc47869f7236ebbe1bb, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BlockHit
+    audioClips:
+    - clip: {fileID: 8300000, guid: e61125a9f8d2fed4a863ecef0b706879, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PerfectBlock
+    audioClips:
+    - clip: {fileID: 8300000, guid: 0edcf8566ae8f604cb8eb109df36705e, type: 3}
+      volume: 0.6
+      volumeVariance: 0
+      pitch: 1.5
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: e61125a9f8d2fed4a863ecef0b706879, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BladeImpact
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1ec1c863fa5b8014f903b95bc3a199f0, type: 3}
+      volume: 0.3
+      volumeVariance: 0.2
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Crit
+    audioClips:
+    - clip: {fileID: 8300000, guid: b49ed098fa9aa8b4aa0e24e0c14b4a6c, type: 3}
+      volume: 0.2
+      volumeVariance: 0.2
+      pitch: 1
+      pitchVariance: 0.1
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SwingFast
+    audioClips:
+    - clip: {fileID: 8300000, guid: 524cd6dea99f4814382bb08f06ac0f30, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 1.8
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SwingSlow
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Roll
+    audioClips:
+    - clip: {fileID: 8300000, guid: 767cbf3dbec5fda4d991464ce0e82abc, type: 3}
+      volume: 1
+      volumeVariance: 1
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Dash
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5a835679e02a3e748b526a4bea27f076, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PlayerHit
+    audioClips:
+    - clip: {fileID: 8300000, guid: ba70acbc750e9644b8c563352f13c9de, type: 3}
+      volume: 0.6
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Jump
+    audioClips:
+    - clip: {fileID: 8300000, guid: b93a28d3deb8d13408d3d7f997912531, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.1
+      pitchVariance: 0.4
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: JumpLand
+    audioClips:
+    - clip: {fileID: 8300000, guid: b181aa855b7744147a744cab7c645e2c, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.3
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PygmyShot
+    audioClips:
+    - clip: {fileID: 8300000, guid: c2f1f874a78162846825eb48bec29e42, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.2
+      pitchVariance: 0.3
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PygmyFire
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7c438776c7cfc2c4f926dcffaf44811e, type: 3}
+      volume: 0.3
+      volumeVariance: 0.2
+      pitch: 1.5
+      pitchVariance: 0.4
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PygmyMelee
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1a4ce018724e9bd46bf7c994451558db, type: 3}
+      volume: 0.3
+      volumeVariance: 0.2
+      pitch: 0.8
+      pitchVariance: 0.4
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PygmyStep
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5a40bb58738051b4792a85d462f83e7f, type: 3}
+      volume: 0.25
+      volumeVariance: 0
+      pitch: 1.4
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: PygmyHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.4
+      volumeVariance: 0.2
+      pitch: 1.4
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 41fd66828e068f34ca2414728c9025e8, type: 3}
+      volume: 0.5
+      volumeVariance: 0.2
+      pitch: 1.4
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianSlam
+    audioClips:
+    - clip: {fileID: 8300000, guid: 819495d50dad5884c94c334483ae99ec, type: 3}
+      volume: 0.2
+      volumeVariance: 0.3
+      pitch: 1.2
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianFire
+    audioClips:
+    - clip: {fileID: 8300000, guid: 54aad3f49d899dd448ad44817416fbc5, type: 3}
+      volume: 0.4
+      volumeVariance: 0.2
+      pitch: 1
+      pitchVariance: 0.4
+      loop: 0
+    - clip: {fileID: 8300000, guid: 7c438776c7cfc2c4f926dcffaf44811e, type: 3}
+      volume: 0.4
+      volumeVariance: 0.2
+      pitch: 1
+      pitchVariance: 0.4
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianMelee
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 0.65
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianStep
+    audioClips:
+    - clip: {fileID: 8300000, guid: d239ec218a9cab6439ab3a5b395cfe10, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GuardianStep2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 22b4bfc6cd959a4468caa18a5fd47459, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.4
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Explosion
+    audioClips:
+    - clip: {fileID: 8300000, guid: 4b94014abff89da418741ca50cf0b95e, type: 3}
+      volume: 0.4
+      volumeVariance: 0.3
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 4b94014abff89da418741ca50cf0b95e, type: 3}
+      volume: 0.2
+      volumeVariance: 0.3
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ExplosionSmall
+    audioClips:
+    - clip: {fileID: 8300000, guid: 4b94014abff89da418741ca50cf0b95e, type: 3}
+      volume: 0.1
+      volumeVariance: 0.3
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 4b94014abff89da418741ca50cf0b95e, type: 3}
+      volume: 0.1
+      volumeVariance: 0.3
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ExplosionTimer
+    audioClips:
+    - clip: {fileID: 8300000, guid: 10255245f5f12294496c6d5303727f54, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: c630e543e1e27524f99bf4a314fe700f, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ExplosionSimmer
+    audioClips:
+    - clip: {fileID: 8300000, guid: c630e543e1e27524f99bf4a314fe700f, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpiderStep1
+    audioClips:
+    - clip: {fileID: 8300000, guid: 992dfeb150379f341b47a33fc9b5e0e9, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 50
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpiderStep2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1019de09059bfa64c9f5d60cbb0cd174, type: 3}
+      volume: 0.35
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 50
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpiderStep3
+    audioClips:
+    - clip: {fileID: 8300000, guid: 28579cce060c62c419ce651a0f0ce3c2, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 50
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpiderStep4
+    audioClips:
+    - clip: {fileID: 8300000, guid: e98cdb5aea68da04d9b114b7d4a62c07, type: 3}
+      volume: 0.35
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 50
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpiderHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6258a1ddf1f23e641965a107dc59db45, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 2
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: DoorMoving
+    audioClips:
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: DoorMoving2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.6
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 1.1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: DoorMoving3
+    audioClips:
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.6
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54a40f8681a272940a1079b903ea57af, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: DoorLocks
+    audioClips:
+    - clip: {fileID: 8300000, guid: 59d43f428340a3b4eabbfb52fc641cc3, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: DoorLocks2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 59d43f428340a3b4eabbfb52fc641cc3, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 41b25ca63207af04ebadaab0e6d23d6f, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ChestOpen
+    audioClips:
+    - clip: {fileID: 8300000, guid: 3493e00b50cabc24d941856cee7618ea, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ItemDrop
+    audioClips:
+    - clip: {fileID: 8300000, guid: 393b36d4ab0dde442acbbd2732971c6e, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ItemDropCorrupted
+    audioClips:
+    - clip: {fileID: 8300000, guid: 393b36d4ab0dde442acbbd2732971c6e, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.6
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: WeaponDrop
+    audioClips:
+    - clip: {fileID: 8300000, guid: 3000277ffc8de1043943e00edf76d605, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.2
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ItemPickUp
+    audioClips:
+    - clip: {fileID: 8300000, guid: e33bc5e9a7844454088a51c693a9a30e, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpellPickUp
+    audioClips:
+    - clip: {fileID: 8300000, guid: b5bdd209046b9144f8a9e5aacfbe6454, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: AddCurse
+    audioClips:
+    - clip: {fileID: 8300000, guid: fb33e00d7bf044d49a9d7f273af71f97, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.2
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: RemoveCurse
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6b79444c1cb338148959f7df88272f8f, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1.2
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BeamCharge
+    audioClips:
+    - clip: {fileID: 8300000, guid: c4223b0760554ff4181db9e02ad0947b, type: 3}
+      volume: 0.4
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BeamLoop
+    audioClips:
+    - clip: {fileID: 8300000, guid: aa2a5212e13a930428270c09b94c6a17, type: 3}
+      volume: 0.35
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 1
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BeamDecay
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5435955a5dee2b8468948072fc1a43ac, type: 3}
+      volume: 0.15
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodCreate
+    audioClips:
+    - clip: {fileID: 8300000, guid: 701d70f0382c1b04eae607f57f68b3bf, type: 3}
+      volume: 0.6
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodStep
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5a40bb58738051b4792a85d462f83e7f, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodChildStep
+    audioClips:
+    - clip: {fileID: 8300000, guid: 5a40bb58738051b4792a85d462f83e7f, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 2
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodAttack
+    audioClips:
+    - clip: {fileID: 8300000, guid: 524cd6dea99f4814382bb08f06ac0f30, type: 3}
+      volume: 0.8
+      volumeVariance: 0
+      pitch: 1.4
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodChildAttack
+    audioClips:
+    - clip: {fileID: 8300000, guid: 524cd6dea99f4814382bb08f06ac0f30, type: 3}
+      volume: 0.8
+      volumeVariance: 0
+      pitch: 2
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodChildHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BroodHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: FlyingHurt
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1.3
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Heal
+    audioClips:
+    - clip: {fileID: 8300000, guid: 47861e97f4b3fde43a0b4e11651be685, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BladeSurge
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7d7b1b2fd4888214bae0503f6449a51b, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Barrier
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7fe6042c89b7a944e91ff793f13388c3, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: FireRing
+    audioClips:
+    - clip: {fileID: 8300000, guid: 95de53ae01df3d74fab197a516c19bdb, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Implosion
+    audioClips:
+    - clip: {fileID: 8300000, guid: 16f169cdd0d958241978e609997b11f1, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: Lightning
+    audioClips:
+    - clip: {fileID: 8300000, guid: 9cced33e69cf7ad4f9f5ab00561bd1c5, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: GroundSlash
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7bbd352eca11ec244b51bb1b888ae6f7, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BladeFall
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1afe3ac4671355247b3086d5bf7d4221, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: SpatialSlash
+    audioClips:
+    - clip: {fileID: 8300000, guid: b93a28d3deb8d13408d3d7f997912531, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1.5
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: FireDash
+    audioClips:
+    - clip: {fileID: 8300000, guid: 0371d9e181630454f88aff773a0df573, type: 3}
+      volume: 0.1
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: CombatMusic
+    audioClips:
+    - clip: {fileID: 8300000, guid: f9ec86f2dd5ce2e499d82c49bee2c8e6, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 1
+    spatialBlend: 0
+    MaxDistance: 500
+    soundType: 0
+    mixerGroup: {fileID: 0}
+  - soundName: Ambient
+    audioClips:
+    - clip: {fileID: 8300000, guid: 98f5fcc30cba1544aadb1109ba539f94, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 1
+    spatialBlend: 0
+    MaxDistance: 500
+    soundType: 0
+    mixerGroup: {fileID: 0}
+  - soundName: MenuMusic
+    audioClips:
+    - clip: {fileID: 8300000, guid: 08d3821f3ad67144aacb2bd2bb0687dd, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 1
+    spatialBlend: 0
+    MaxDistance: 500
+    soundType: 0
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeStep
+    audioClips:
+    - clip: {fileID: 8300000, guid: d239ec218a9cab6439ab3a5b395cfe10, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 1
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeStep2
+    audioClips:
+    - clip: {fileID: 8300000, guid: 22b4bfc6cd959a4468caa18a5fd47459, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 1
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeSwing
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 524cd6dea99f4814382bb08f06ac0f30, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0.3
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeFireCast
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7c438776c7cfc2c4f926dcffaf44811e, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54aad3f49d899dd448ad44817416fbc5, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeFireLoop
+    audioClips:
+    - clip: {fileID: 8300000, guid: 54ee8baf217bd5940961b7c4807919ce, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 1
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeFireDecay
+    audioClips:
+    - clip: {fileID: 8300000, guid: 300d466e561e9ff44ada75bad431ff25, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeLunge
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: b93a28d3deb8d13408d3d7f997912531, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 1.5
+      pitchVariance: 0
+      loop: 0
+    - clip: {fileID: 8300000, guid: 524cd6dea99f4814382bb08f06ac0f30, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ForgeHit
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 61ecc808e9fbd554a83161fdaa274d82, type: 3}
+      volume: 0.1
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerStep1
+    audioClips:
+    - clip: {fileID: 8300000, guid: e37aa57929455314484567008092af47, type: 3}
+      volume: 0.6
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerStep2
+    audioClips:
+    - clip: {fileID: 8300000, guid: f848f49367c0646499bd689ad8249b0d, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerSwing1
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 1
+      volumeVariance: 0
+      pitch: 0.6
+      pitchVariance: 0.3
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerStab
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1ec1c863fa5b8014f903b95bc3a199f0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 61ecc808e9fbd554a83161fdaa274d82, type: 3}
+      volume: 0.15
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerLeap
+    audioClips:
+    - clip: {fileID: 8300000, guid: b93a28d3deb8d13408d3d7f997912531, type: 3}
+      volume: 0.8
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerLunge
+    audioClips:
+    - clip: {fileID: 8300000, guid: e4aa5ccb5a7147a4583f705140f4d742, type: 3}
+      volume: 0.7
+      volumeVariance: 0
+      pitch: 0.5
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerHit
+    audioClips:
+    - clip: {fileID: 8300000, guid: 6f08bd2f7fb0346459d5424b14508cf0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.7
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 61ecc808e9fbd554a83161fdaa274d82, type: 3}
+      volume: 0.1
+      volumeVariance: 0
+      pitch: 0.6
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: TinkerSlam
+    audioClips:
+    - clip: {fileID: 8300000, guid: 61ecc808e9fbd554a83161fdaa274d82, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: ArcFire
+    audioClips:
+    - clip: {fileID: 8300000, guid: 7c438776c7cfc2c4f926dcffaf44811e, type: 3}
+      volume: 0.3
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 54aad3f49d899dd448ad44817416fbc5, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BladeRainCast
+    audioClips:
+    - clip: {fileID: 8300000, guid: c9a91e8e00d42124788aa21bd56ca491, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: BladeRainImpact
+    audioClips:
+    - clip: {fileID: 8300000, guid: 1ec1c863fa5b8014f903b95bc3a199f0, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0.5
+      loop: 0
+    - clip: {fileID: 8300000, guid: 61ecc808e9fbd554a83161fdaa274d82, type: 3}
+      volume: 0.05
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.5
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: EarthShatter
+    audioClips:
+    - clip: {fileID: 8300000, guid: fb6d54c5cf4111240847eb05f27a4d68, type: 3}
+      volume: 0.5
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: a21820a12d1908140aba7fd2d3b1b9d4, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.1
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 500
+    soundType: 1
+    mixerGroup: {fileID: 0}
+  - soundName: HammerSmash
+    audioClips:
+    - clip: {fileID: 8300000, guid: fb6d54c5cf4111240847eb05f27a4d68, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 1
+      pitchVariance: 0.2
+      loop: 0
+    - clip: {fileID: 8300000, guid: 819495d50dad5884c94c334483ae99ec, type: 3}
+      volume: 0.2
+      volumeVariance: 0
+      pitch: 0.8
+      pitchVariance: 0.1
+      loop: 0
+    spatialBlend: 1
+    MaxDistance: 100
+    soundType: 1
+    mixerGroup: {fileID: 0}

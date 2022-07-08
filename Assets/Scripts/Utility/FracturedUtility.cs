@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,7 +11,7 @@ public static class FracturedUtility
     {
         get
         {
-            return LayerMask.GetMask("Default", "Stairs", "Pillar", "Terrain", "NonWalkable", "Ground");
+            return LayerMask.GetMask("Default", "Stairs", "NonWalkable", "Ground");
         }
     }
     public static bool HasEffectiveAuthority(NetworkIdentity networkIdentity)
